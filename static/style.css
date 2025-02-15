@@ -1,0 +1,75 @@
+/* 🌙 Dark Theme */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* 🚀 Centered Container */
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #4608dc;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+/* 🎯 Input Fields */
+input[type="text"] {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    background: #10df1a;
+    color: white;
+}
+
+/* ✨ Buttons */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #00c8ff;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #009cd8;
+    transform: scale(1.05);
+}
+
+/* 🔗 Shortened Link Display */
+.short-url {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00c8ff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.short-url:hover {
+    color: #009cd8;
+    text-decoration: underline;
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+
+    input[type="text"] {
+        width: 85%;
+    }
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+<div class="container text-center mt-5">
+    <h1 class="mb-4">🚀 URL Shortener</h1>
+    <form action="/shorten" method="post" class="w-50 mx-auto">
+        <div class="mb-3">
+            <input type="url" name="url" class="form-control" placeholder="Enter URL" required>
+        </div>
+        <div class="mb-3">
+            <input type="text" name="custom_key" class="form-control" placeholder="Custom Key (optional)">
+        </div>
+        <div class="mb-3">
+            <input type="date" name="expiration" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary">Shorten URL</button>
+    </form>
+</div>
+</body>
+</html>
